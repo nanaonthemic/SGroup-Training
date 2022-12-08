@@ -1,0 +1,32 @@
+.skills-section {
+	padding-bottom: 105px;
+}
+
+.skills-row {
+	display: flex;
+	/* flex-wrap: wrap; */
+	flex-basis: 200px;
+}
+
+.skills-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 11px;
+}
+
+.skills-list li {
+	display: inline-block;
+	color: #373737;
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+	border-radius: 27px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}

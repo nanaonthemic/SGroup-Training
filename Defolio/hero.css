@@ -1,0 +1,63 @@
+.hero-section {
+	display: flex;
+	justify-content: flex-start;
+	/* padding: 0 4.8rem; */
+}
+
+.hero-section section {
+	padding-left: 70px;
+	padding-right: 100px;
+}
+
+.hero-image-ava {
+	/* display: flex; */
+	flex-direction: column;
+}
+
+.hero-image-ava img {
+	width: 500px;
+	height: auto;
+	margin-right: 90px;
+}
+
+.hero-intro {
+	/* display: flex; */
+	flex-direction: column;
+}
+
+.hero-section h1 {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 60px;
+	color: #000;
+}
+
+.hero-section h1 span {
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+
+.hero-valuelist {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	margin-top: 60px;
+}
+
+.hero-valuelist li {
+	margin-right: 60px;
+}
+
+.hero-valuelist strong {
+	display: block;
+	color: #f26464;
+	font-size: 36px;
+	font-weight: 800;
+}

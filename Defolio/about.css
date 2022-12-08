@@ -1,0 +1,30 @@
+.about-section {
+	padding-top: 60px;
+	padding-bottom: 120px;
+}
+
+.about-section p {
+	color: #373737;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 300;
+	margin-bottom: 60px;
+}
+
+.about-button-sec {
+	text-align: center;
+}
+
+.about-button {
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: #f26464;
+	padding: 17px 30px;
+	border: 2px solid #f26464;
+	border-radius: 60px;
+}
