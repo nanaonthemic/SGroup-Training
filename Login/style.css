@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background: linear-gradient(100deg, #2980b9, #8e44ad);
+	height: 100vh;
+	overflow: hidden;
+}
+
+.container {
+	top: 300px;
+	left: 400px;
+	margin: 200px 500px;
+	width: 500px;
+	background: white;
+	border-radius: 10px;
+}
+
+.container h1 {
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: 1px solid silver;
+}
+
+.container form {
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+
+form .text-field {
+	border-bottom: 2px solid silver;
+	margin: 30px 0;
+}
+
+.text-field input {
+	width: 100%;
+	padding: 0 0px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.forgot-pass {
+	color: #666666;
+	margin: 0px 0px 20px 0px;
+}
+
+form button {
+	width: 100%;
+	height: 60px;
+	background: #2692d9;
+	border: none;
+	font-size: 19px;
+	color: white;
+	border-radius: 30px;
+	margin: 0 0 20px 0;
+}
+
+.signup {
+	text-align: center;
+	color: #666666;
+	padding: 0 0 20px 0;
+}
+
+.signup a {
+	text-decoration: none;
+	color: #2692d9;
+}
