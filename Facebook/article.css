@@ -1,0 +1,61 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	/* margin-top: 10px; */
+}
+
+.art-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: linear-gradient(180deg, silver, white);
+}
+
+.art-1 img {
+	border-radius: 0 0 20px 20px;
+}
+
+.art-cover {
+	display: flex;
+	width: 1095px;
+	height: 406px;
+}
+
+.art-cover img {
+	width: 1095px;
+	height: 406px;
+	position: relative;
+}
+
+.art-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.art-2 .art-info {
+	display: flex;
+	width: 908px;
+	height: 147px;
+}
+
+.art-info-bg {
+	display: flex;
+	position: absolute;
+	background-color: white;
+	top: 430px;
+	left: 250px;
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.art-info img {
+	width: 168px;
+	height: 168px;
+	/* border: silver 3px; */
+	border-radius: 84px;
+}
