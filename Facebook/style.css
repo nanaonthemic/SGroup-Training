@@ -19,6 +19,7 @@ li {
 	background-color: #fff;
 	/* margin-bottom: 10px; */
 	position: sticky;
+	z-index: 5;
 }
 
 .navbar {
@@ -119,3 +120,4 @@ li {
 	/* transition-property: all; */
 	transition-timing-function: ease;
 }
+
