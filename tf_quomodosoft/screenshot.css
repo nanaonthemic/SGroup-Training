@@ -1,0 +1,27 @@
+.screenshot {
+	background-image: url("./image/screenshot-bg.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.screenshot-images {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding-bottom: 100px;
+}
+
+.screenshot-img {
+	width: 250px;
+	height: 526px;
+}
+
+.screenshot-content {
+	padding: 100px 0 20px 0;
+}
+.screenshot .title,
+.screenshot .content-large {
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.hero {
+	background-image: url("image/hero_background.png");
+	background-position: 45% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 1920px; */
+	width: 1440px;
+	height: 940px;
+	display: flex;
+}
+
+.hero-container {
+	/* display: flex; */
+}
+
+.hero h1 {
+	font-size: 78px;
+	font-weight: 600;
+	margin-left: 100px;
+	margin-top: 200px;
+}
+
+p {
+	font-size: 20px;
+	margin-left: 100px;
+	color: rgb(90, 89, 89);
+	line-height: 1.7;
+}
+
+.hero-button {
+	margin-left: 100px;
+}
+
+button {
+	width: 148px;
+	height: 56px;
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+.hero-img {
+	flex-basis: 50%;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+header {
+	position: sticky;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px;
+	padding: 0 100px;
+	/* position: sticky; */
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	font-weight: 900;
+}
+
+.nav-lists {
+	display: flex;
+	align-items: center;
+}
+
+.nav-lists .nav-list {
+	padding-right: 20px;
+}
+
+.nav-lists .nav-list img {
+	width: 120px;
+	height: 30px;
+}
+
+.nav-search {
+	width: 56px;
+	height: 56px;
+	border-radius: 28px;
+	background-color: silver;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.started-now {
+	background-color: #7186f5;
+	/* margin: 0; */
+	padding: 20px 29px;
+	color: white;
+	border: #7186f5;
+	border-radius: 30px;
+}
+
+.try-it {
+	background-color: transparent;
+	/* margin: 0; */
+	padding: 20px 29px;
+	color: #7186f5;
+	border: none;
+	border-radius: 30px;
+	text-decoration: underline;
+	width: 180px;
+}
+
+.features {
+	display: flex;
+	justify-content: center;
+}
+
+.features-box {
+	padding: 0 20px;
+}
+
+.title {
+	font-size: 16px;
+	font-weight: 900;
+	color: #c02ed0;
+	margin: 0;
+}
+
+.content-large {
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.content-small {
+	font-size: 32px;
+	font-weight: 900;
+}
+
+.box-content {
+	font-size: 16px;
+	font-family: Poppins;
+}
