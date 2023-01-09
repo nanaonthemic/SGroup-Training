@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" class="style">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="heading">
+                    JavaScript CRUD Example Toturial
+                </h1>
+            </div>
+            <div class="border"></div>
+        </header>
+        <section class="form">
+            <div class="container">
+                <form class="user-form">
+                    <div class="box">
+                        <div>
+                            <label class="user-input-label">FullName</label>
+                            <input class="user-input-text" id="name" type=" text" required />
+                        </div>
+                        <div>
+                            <label class="user-input-label">Email Id</label>
+                            <input class="user-input-text" id="email" type=" email" required />
+                        </div>
+                        <div>
+                            <label class="user-input-label">Salary</label>
+                            <input class="user-input-text" id="salary" type=" number" required />
+                        </div>
+                        <div>
+                            <label class="user-input-label">City</label>
+                            <input class="user-input-text" id="city" type=" text" required />
+                        </div>
+                        <div class="submit">
+                            <button class="btn-submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="container">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Full Name</td>
+                            <td>Email Id</td>
+                            <td>Salary</td>
+                            <td>City</td>
+                            <td>Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody class="render">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
